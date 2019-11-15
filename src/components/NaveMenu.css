@@ -1,0 +1,66 @@
+.header-menu{
+    display: flex;
+    justify-content:center;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+     list-style-type:none ;
+     background-color: slategrey;
+     width: 40%;
+     align-items: center;
+     position:relative;
+     font-size:20px;
+     font-weight:bold;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+}
+.list-service a {
+    text-decoration: none;
+    
+}
+a:active  {
+    color:red;
+
+}
+
+.list-menu{
+    display: none;
+    list-style-type:none ;
+}
+ 
+
+.list-service a:hover{
+
+    color:white;
+}
+
+.list-menu li{
+    
+    margin:10px;
+    color:white;
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+
+.list-service:hover .list-menu  {
+    width:35%;
+    display:block;
+    background-color: mediumpurple;
+    position:absolute;
+    top:23.5px;
+    border-radius:10px;
+    align-self: flex-start;
+
+}
+
+.list-service:hover{
+    cursor: pointer;
+}
+
+.list-menu:hover li{
+    color:rgb(24, 6, 104);
+}
